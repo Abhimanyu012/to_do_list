@@ -47,7 +47,7 @@ li{
     background-color: white;
    margin: 2%;
    list-style:none;
-   box-shadow: 0 0 5px 7px rgb(236, 232, 232);
+   box-shadow: 0 2px 5px 7px rgb(236, 232, 232);
     
 border: 1px red solid;
 }
