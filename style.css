@@ -13,7 +13,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100%;
+     
     width: 100%;
 }
 
@@ -36,18 +36,34 @@ body {
     padding: 5px;
     width: 60%;
     height: 98%;
+    gap: 5px;
+     
+
 
 
 
 }
+li{
+    background-color: white;
+   margin: 2%;
+   list-style:none;
+   box-shadow: 0 0 5px 7px rgb(236, 232, 232);
+    
+border: 1px red solid;
+}
+.delete-button{
+    float: right;
+    border: none;
+    background-color: rgb(189, 189, 209);
+}
 
 #tsk {
-    height: 40%;
+   
     gap: 50px;
     justify-content: space-evenly;
     display: flex;
 
-    background-color: rgb(97, 93, 93);
+  
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -56,10 +72,13 @@ body {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    background-color: red;
+
+    background-color: rgb(238, 177, 177);
     height: auto;
-    border: rgb(0, 0, 0) solid 2px;
-    width: 90%;
+    /* border: rgb(0, 0, 0) solid 2px; */
+    opacity: tra;
+    padding: 2%;
+    width: 60%;
     flex-wrap: wrap;
 
 }
@@ -83,10 +102,13 @@ body {
 .btn button {
     height: 40px;
     width: 100px;
-
+float: left;
+/* background-color: red; */
 
     padding: 10px;
     width: 130px;
+    display: flex;
+    align-items:flex-end;
 
 
     /* margin-top: 15px */
@@ -105,4 +127,10 @@ body {
     justify-content: center;
     padding: 10px;
 
+
 }
+ #tasklist{
+    /* background-color: yellow; */
+    justify-content: space-between;
+    float: right;
+ }

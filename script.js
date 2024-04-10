@@ -36,3 +36,11 @@ const createTask = () => {
     tasks.splice(index,1)
     renderTasks();
  }
+
+ const clearAllTasks = ()=>{
+    tasks=[]; 
+    renderTasks()
+ }
+ const countTasks =()=> {
+    alert("tatal number of tasks is:"+tasks.length)
+ }
